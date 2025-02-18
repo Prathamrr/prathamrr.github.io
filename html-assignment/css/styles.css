@@ -1,0 +1,41 @@
+/* changin font family*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+/* Adding background color to header and footer*/
+header,footer{
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 8px;
+    text-align: center;
+}
+.site-title{
+    color: rgb(54, 131, 105);
+    font-weight: bold;
+}
+img{
+    box-shadow: 0px 0px 2px 1px black;
+}
+/* bullets to sqaure*/
+.hobbies {
+    list-style-type: square;
+}
+/* background to list items*/
+.hobbies li :nth-child(odd){
+    background-color: #ffd900;
+    padding: 5px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    background-color: rgb(36, 69, 58);
+    color: blanchedalmond;
+    border: 2px;
+    border-radius: 3px;
+    display: inline-block;
+}
+ li{
+background-color: aqua;
+}
