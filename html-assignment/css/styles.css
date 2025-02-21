@@ -3,6 +3,15 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
+a {
+    text-decoration: none;
+    background-color: rgb(38, 159, 118);
+    color: blanchedalmond;
+    border: 2px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
 /* Adding background color to header and footer*/
 header,footer{
     background-color: blueviolet;
@@ -22,20 +31,11 @@ img{
     list-style-type: square;
 }
 /* background to list items*/
-.hobbies li :nth-child(odd){
+.hobbies li:nth-child(odd){
     background-color: #ffd900;
-    padding: 5px;
-    font-weight: bold;
+    padding: 3px; 
 }
-
-a {
-    text-decoration: none;
-    background-color: rgb(36, 69, 58);
-    color: blanchedalmond;
-    border: 2px;
-    border-radius: 3px;
-    display: inline-block;
-}
- li{
-background-color: aqua;
+ul{
+    list-style: none;
+    padding: 45px;
 }
