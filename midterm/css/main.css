@@ -1,0 +1,195 @@
+/* set the font for the body and apply a background color */
+body{
+    font-family: Arial,Helvetica,sans-serif;
+    background-color:#aad4cf;
+     width: 70%;
+     margin: auto;
+}
+
+/*centre the header and adjust its position*/
+header{
+    position:relative;
+    text-align:center;
+    width:100%;/*ensure it takes up the full width*/
+    color:white;
+}
+
+/*make the header image cover the full width*/
+header img{
+    width: 100%;
+    height: auto;
+}
+
+/*position the header title in the centre of the image*/
+header h1{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: aliceblue;
+    font-size: 2rem;
+    
+}
+
+/*style the navigation menu using flexbox*/
+nav ul{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    align-items: centre;
+    justify-content: space-around;
+    font-size: 27px;
+    width: 100%;/*ensure it stretches across the full width*/
+}
+
+/*add spacing and positioning for navigation items*/
+nav ul li{
+    padding: 3px 55px;
+    position: relative;
+}
+/*apply a right border to all navigation items except yhe last one*/
+nav ul li:not(:last-child){
+    border-right: 2px solid black;
+}
+
+/*float image to the left with spacing*/
+.floating-image{
+    float: left;
+    margin-right: 20px;
+    width: 250px;
+    padding: 8 px;
+    height: auto;
+    margin-top: 10px;
+}
+/*align to the footer text to the right*/
+.footer-right{
+    text-align: justify;
+    margin-top: 10px;
+    padding: 10px;
+    flex: 1;
+    font-size: 1.1rem;
+}
+/*add padding and rounded corners to the facts section*/
+.facts-of-fish{
+    padding: 10px;
+    border-radius: 5px;
+    list-style-type: disc;
+    margin: 20px;
+}
+
+/*add padding to the unordered list inside the facts section*/
+.facts-of-fish ul{
+    padding: 20px;
+    list-style-type: disc;
+}
+
+/*adjust the spacing for form labels*/
+.forms label{
+    padding: 3px;
+    text-align: left;
+}
+/*align the form,button,and other elements to the left*/
+.form-container{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 10px;
+}
+/*make input fields stretch across the available width*/
+input[type="text"]
+input[type="email"]
+textarea{
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border:1px solid #f7f4f4;
+    border-radius: 4px; 
+    box-sizing: border-box;
+}
+/*adjust the height and resizing behavior of the message textarea*/
+#message{
+    height: 100px;
+    resize: vertical;
+}
+
+/*remove underline and set the link color to black*/
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*set up the main wrapper with vertical alignment and centring*/
+.wrapper{
+    background-color: #c6dedb;
+width: 80%;
+max-width: 700px;
+margin: 20px auto;
+display: flex;
+flex-direction: column;/*arrange content vertically*/
+align-items: center;
+text-align: center;
+padding: 20px;
+}
+/*add a border around the form to separate it visually*/
+.outline{
+    border: 2px solid;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+}
+/*align the form labels and input in a column layout*/
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: flex-start;
+    width: 100%;
+}
+/*align the submit button to the left and add padding*/
+button{
+    margin-top: 10px;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+/*change the button color on hover*/
+.button:hover{
+    background:rgb(69,195,217)
+}
+
+/*add margin to the contact section*/
+#contact{
+    margin: 10px;
+}
+
+/*add margin to paragraphs inside the article section*/
+article p {
+    margin: 100px;
+}
+
+/*apply a consistent font and background color to the entire page*/
+.wrapper{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #aad4cf;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    gap: 20px;
+}
+/*make sure sections have good spacing*/
+section{
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+.wrapper{
+    background-color: #d4e9e7;
+    width: 820px;
+    margin: auto;
+}
